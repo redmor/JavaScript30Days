@@ -9,7 +9,7 @@
   <p onClick="makeGreen()">×BREAK×DOWN×</p>
 
   <script>
-    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+   const p = document.querySelector('p');
 
     function makeGreen() {
       const p = document.querySelector('p');
@@ -18,28 +18,44 @@
     }
 
     // Regular
+    console.log('hello');
 
     // Interpolated
+    console.log('hello dear Mr. %s Smith', 'John');
 
     // Styled
+    console.log('%c Hello in colors', 'color: red; font-size: 20px');
 
     // warning!
+    console.warn('OH NOO!');
 
     // Error :|
+    console.error('shit!');
 
     // Info
+    console.info('Bees are insects');
 
     // Testing
+    console.assert(1 !== 1, 'that\'s wrong!');
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
-
-    // Grouping together
+    console.log(p);
+    console.dir(p);
 
     // counting
 
-    // timing
+    console.count('redmor');
+    console.count('redmor');
+    console.count('redmor');
+    console.count('oussama');
+    console.count('oussama');
+    console.count('oussama');
+    console.count('redmor');
+    console.count('redmor');
+    console.count('redmor');
 
   </script>
 </body>
